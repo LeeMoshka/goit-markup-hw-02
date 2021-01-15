@@ -1,0 +1,69 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+  a{
+    text-decoration:none;
+   }
+
+/*навигация*/
+.logo:hover,
+.logo:focus{
+color: blue;
+}
+.logo-word{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.navigation-list{
+list-style: none;
+}
+.navigation-list-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus{
+  color: blue;
+}
+.contacts{
+list-style: none;}
+
+.contact-mail-link{
+font-weight: 500;
+font-size: 14px;
+line-height:1.142;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contact-phone-link{
+font-weight: 500;
+font-size: 14px;
+line-height:1.142;
+letter-spacing: 0.02em;
+color: #757575;
+}
+/*hero*/
+.button-list:hover,
+.button-list:focus{
+color: #FFFFFF;
+background-color:#2196F3;
+}
+
+.filter-button-list:hover,
+.filter-button-list:focus {
+font-weight: 500;
+font-size: 16px;
+line-height:1.625;
+letter-spacing: 0.03em;}
+.filter-button-list{
+list-style:none;
+color: #FFFFFF;
+}
