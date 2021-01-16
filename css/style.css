@@ -22,16 +22,13 @@ color: var(--accent-color);
 }
 .logo-word{
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-.navigation-list{
-/*list-style: none;*/
-}
+
 .navigation-list-item{
 font-weight: 500;
 font-size: 14px;
@@ -59,7 +56,19 @@ line-height:1.142;
 letter-spacing: 0.02em;
 color:var(--description-color);
 }
+
 /*hero studio */
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+
 .hero-button:hover, 
 .hero-button:focus{
 color:var(--button-color);
@@ -96,6 +105,7 @@ letter-spacing: 0.03em;
 color: var(--description-color);
 }
 /*about-us*/
+/*Чем мы занимаемся*/
 .about-us-title{
 font-weight: 700;
 font-size: 36px;
@@ -113,4 +123,30 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
 }
+/*footer*/
+.address{
+  background-color:#2F303A; ;
+}
+.address-map{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.mail{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.phone{
+font-weight: 400;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
