@@ -15,7 +15,7 @@ body {
     text-decoration:none;
    }
 /*****components*****/
-.title{
+.card-title{
 font-weight:700;
 font-size: 14px;
 line-height:1.142;
@@ -33,17 +33,15 @@ color: var(--description-color);
 /*****end components*****/
 
 /*****навигация*****/
-.logo:hover,
-.logo:focus{
-color: var(--accent-color);
-}
+.logo{
+color:#212121;;}
 .logo-word{
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--accent-color)
 }
 
 .navigation-list-item{
