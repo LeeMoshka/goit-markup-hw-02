@@ -14,8 +14,25 @@ body {
   a{
     text-decoration:none;
    }
+/*****components*****/
+.title{
+font-weight:700;
+font-size: 14px;
+line-height:1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--title-color);
+}
+.description{
+font-weight:400;
+font-size: 14px;
+line-height:1.714;
+letter-spacing: 0.03em;
+color: var(--description-color);
+}
+/*****end components*****/
 
-/*навигация*/
+/*****навигация*****/
 .logo:hover,
 .logo:focus{
 color: var(--accent-color);
@@ -39,15 +56,15 @@ letter-spacing: 0.02em;
 .navigation-list-link:focus{
   color:var(--accent-color);
 }
-.contacts{
-list-style: none;}
 
-.mail-link{
+.mail-link{color: var(--description-color);}
+.mail-link:hover,
+.mail-link:focus{
 font-weight: 500;
 font-size: 14px;
 line-height:1.142;
 letter-spacing: 0.02em;
-color:var(--description-color);
+color:var(--accent-color);
 }
 .phone-link{
 font-weight: 500;
@@ -57,11 +74,11 @@ letter-spacing: 0.02em;
 color:var(--description-color);
 }
 
-/*hero studio */
+/*****hero studio*****/
 .main-title{
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.363;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -72,13 +89,11 @@ background-color: #2F303A;
 .hero-button:hover, 
 .hero-button:focus{
 color:var(--button-color);
-background-color:var(--accent-color);}
-/*hero portfolio*/
-.button-list:hover,
-.button-list:focus{
-color:var(--button-color);
 background-color:var(--accent-color);
 }
+/***** end hero studio*****/
+
+/******hero portfolio******/
 
 .filter-button-list:hover,
 .filter-button-list:focus {
@@ -89,22 +104,9 @@ letter-spacing: 0.03em;
 background-color:var(--accent-color);
 color:var(--button-color);
 }
-.title{
-font-weight:700;
-font-size: 14px;
-line-height:1.142;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--title-color);
-}
-.description{
-font-weight:400;
-font-size: 14px;
-line-height:1.714;
-letter-spacing: 0.03em;
-color: var(--description-color);
-}
-/*about-us*/
+/****** end hero portfolio******/
+
+/*****about us*****/
 /*Чем мы занимаемся*/
 .about-us-title{
 font-weight: 700;
@@ -114,6 +116,8 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
 }
+/***** end aboutus* ****/
+
 /* наша-команда*/
 .title-team{
 font-weight: 700;
@@ -123,30 +127,23 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
 }
-/*footer*/
+
+/*****footer*****/
 .address{
   background-color:#2F303A; ;
 }
 .address-map{
-font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.mail{
+.mail,.phone{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-}
-.phone{
-font-weight: 400;
-font-size: 14px;
-line-height:1.714;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
