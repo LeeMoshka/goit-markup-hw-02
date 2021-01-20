@@ -57,15 +57,8 @@ letter-spacing: 0.02em;
 .navigation-list-link.current{color:var(--accent-color) ;
 }
 /*****навигация контакты*****/
-.mail-link{color: var(--description-color);}
-.mail-link:hover,
-.mail-link:focus{
-font-weight: 500;
-font-size: 14px;
-line-height:1.142;
-letter-spacing: 0.02em;
-color:var(--accent-color);
-}
+
+.mail-link,
 .phone-link{
 font-weight: 500;
 font-size: 14px;
@@ -73,6 +66,11 @@ line-height:1.142;
 letter-spacing: 0.02em;
 color:var(--description-color);
 }
+.mail-link:hover,.phone-link:hover,
+.mail-link:focus,.phone-link:focus{
+color:var(--accent-color);
+}
+
 /*****конец навигации*****/
 
 /*****hero studio*****/
@@ -90,10 +88,15 @@ background-color: #2F303A;
 .hero-button:hover, 
 .hero-button:focus{
 background-color:var(--accent-color);
+color: #FFFFFF;
 
-left: 732px;
+}
+.hero-button{
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+  left: 732px;
 top: 440px;
-
+font-family: inherit;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -102,9 +105,6 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-}
-.hero-button{
-  background-color: var(--accent-color);
 }
 .hero{
 background-color: #2F303A; ;
@@ -116,7 +116,7 @@ background-color: #2F303A; ;
 .filter-button:hover,
 .filter-button:focus{
 font-family: inherit;
-color:var(--title-color);
+color:#FFFFFF;
 background-color:  #2196F3;}
 
 .filter-button{
@@ -155,7 +155,14 @@ color:var(--title-color);
 
 /*****footer*****/
 .logo-footer{
-  color: #FFFFFF;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+ color: #FFFFFF;
 }
 .address{
   background-color:#2F303A; ;
@@ -169,7 +176,8 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.footer-mail,.footer-phone{
+.footer-mail,
+.footer-phone{
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
