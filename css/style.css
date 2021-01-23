@@ -17,10 +17,9 @@ body {
 /*****components*****/
 .card-title{
 font-weight:700;
-font-size: 14px;
-line-height:1.142;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+font-size: 18px;
+line-height:2;
+letter-spacing: 0.06em;
 color:var(--title-color);
 }
 .description{
@@ -43,18 +42,22 @@ line-height: 1.192;
 letter-spacing: 0.03em;
 
 }
-.logo-word{ color: var(--accent-color);}
+.logo-word{ 
+  color: var(--accent-color);
+}
 .navigation-list-item{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
+color:var(--title-color);
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus{
  color:var(--accent-color);}
  
-.navigation-list-link.current{color:var(--accent-color) ;
+.navigation-list-link.current{
+  color:var(--accent-color) ;
 }
 /*****навигация контакты*****/
 
