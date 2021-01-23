@@ -59,6 +59,9 @@ color:var(--title-color);
 .navigation-list-link.current{
   color:var(--accent-color) ;
 }
+.navigation-list-link{
+color:var(--title-color);
+}
 /*****навигация контакты*****/
 
 .mail-link,
